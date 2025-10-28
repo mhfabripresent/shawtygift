@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(95, 11, 11);
+}
+
+.paper{
+    background-color: #FAF3E0;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.foto-shawty{
+    margin: auto;
+    
+}
+
+.foto-shawty img{
+    max-width: 300px;
+    height: auto;
+}
+
+.monsterhigh img{
+    margin: auto;
+    width: 20%;
+    margin-top: 20px;
+}
+
+.hellokitty img{
+    margin: auto;
+    width: 35%;
+    margin-top: 20px;
+}
+
+.ghostface img{
+    margin: auto;
+    width: 40%;
+    margin-top: 80px;
+}
+
+.kuromi img{
+    margin: auto;
+    width: 35%;
+}
+
+.nos img{
+    margin: auto;
+    width: 30%;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.marie img{
+    margin: auto;
+    width: 35%;
+
+}
+
+.agente img{
+    margin: auto;
+    width: 40%;
+    margin-top: 20px;
+    rotate: -90deg;
+    border-radius: 100%;
+}
+
+.jennie img{
+    margin: auto;
+    width: 30%;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+
+.message{
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.motivos
+{
+    background-color: rgb(92, 8, 92);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
