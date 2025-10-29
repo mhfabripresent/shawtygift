@@ -15,7 +15,8 @@
         <div class="row">
             <div class="col">
                 <div class="foto-shawty">
-                    <img src="img/startphoto.png" alt="foto nossa bem bonitinhos" class="img-fluid rounded-circle">
+                    <img src="img/startphoto.png" alt="foto nossa bem bonitinhos"
+                        class="img-fluid rounded-circle foto-shawty">
                 </div>
             </div>
             <div class="col">
@@ -142,11 +143,7 @@
         <div class="card paper">
             <h2>Cada musica que escuto...</h2>
             <p>Varias musicas me lembram você e me fazem imaginar nós dois juntos, pode ver todas elas bem aqui:</p>
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/playlist/6H9xqbOiu9n0ivBorXEP9C?utm_source=generator" width="100%"
-                height="152" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"></iframe>
+            <button class="buttonspt"><img src="img/spotify.png" alt="" class="spotify" onclick="spotify()"></button>
 
             <p>Ou então, pode ver as letras das que mais fazem eu pensar em nós e e você bem aqui em baixo.</p>
         </div>
@@ -225,6 +222,7 @@
                 </div>
 
             </div>
+            <hr>
             <div class="row">
                 <div class="col">
                     <h2>Você chegou/Tudo desabou</h2>
@@ -292,6 +290,7 @@
                 </div>
 
             </div>
+            <hr>
             <div class="row">
                 <div class="col">
                     <h2>Poesia acustica #6</h2>
@@ -361,6 +360,7 @@
                     </p>
                 </div>
             </div>
+            <hr>
             <div class="row">
                 <div class="col">
                     <h2>Savage</h2>
@@ -426,15 +426,48 @@
             </div>
         </div>
 
+        <div class="finally">
+            <img src="img/IMG-20251019-WA0040.png" alt="">
+        </div>
         <div class="card paper">
             <h2>E a final, pra que isso tudo?</h2>
-            <p>Olha, eu sei que não sou facil de aturar, sou insuportavel de vez em quando e te estresso muito, mas é meu jeitinho de te mostrar o meu amor, eu sou simplesmente apaixonado em voce, totalmente maluco por você e nao quero te perder por nada nessa vida, quero pra sempre estar com você ao seu lado, lutando contra tudo e todos que quiserem fazer mal pra você e fazer você a mulher mais feliz de todas.</p>
+            <p>Olha, eu sei que não sou facil de aturar, sou insuportavel de vez em quando e te estresso muito, mas é
+                meu jeitinho de te mostrar o meu amor, eu sou simplesmente apaixonado em voce, totalmente maluco por
+                você e nao quero te perder por nada nessa vida, quero pra sempre estar com você ao seu lado, lutando
+                contra tudo e todos que quiserem fazer mal pra você e fazer você a mulher mais feliz de todas.</p>
             <p>Perdão por ser sempre muito chato, querendo sua atenção e te estressar sempre</p>
-            <p>Eu te amo Leticia, nao tive um motivo exato pra fazer isso, mas quero apenas te dizer que eu te amo e que você é e pra sempre sera a mulher da minha vida.</p>
+            <p>Eu te amo Leticia, nao tive um motivo exato pra fazer isso, mas quero apenas te dizer que eu te amo e que
+                você é e pra sempre sera a mulher da minha vida.</p>
         </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary modalcolor" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Agora abre aquiiiiii!!!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bgmodalcolor2">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Eu te amo!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body bgmodalcolor">
+                        <h2>Eu Te Amo!</h2>
+                        <p>Eu sei que esta passando por momentos dificeis ultimamente, e eu quero te dizer que pra sempre eu vou estar com você, vamos enfrentar todas as dificuldades juntos e sempre vou estar ao seu lado independente do que aconteça. <br> Você é minha princesa, minha bebe, minha gatinha e minha perfeição, eu sempre vou te ouvir, vou te entender e te ajudar no maximo que puder.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary modalcolor" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
-    <footer style="margin-top: 40px; color: rgba(0, 0, 0, 0.4);">Desenvolvido por < / Fabri ></footer>
+    <footer style="margin-top: 40px; color: rgba(0, 0, 0, 0.4);">Desenvolvido por < / Fabri>
+    </footer>
 
 
     <script src="js/bootstrap.bundle.js"></script>
