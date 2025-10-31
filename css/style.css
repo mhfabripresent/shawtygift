@@ -43,7 +43,7 @@ body{
     margin: auto;
     width: 60%;
     margin-top: 20px;
-    animation: pulsar 8s infinite;
+    animation: pulsar 4s infinite;
 }
 
   
@@ -188,3 +188,4 @@ body{
     border-radius: 5px;
 
 }
+
